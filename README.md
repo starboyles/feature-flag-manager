@@ -2,7 +2,7 @@
 
 A minimalist feature flag management service for developers. Control feature releases through configuration rather than deploying new code, making deployments safer and more flexible.
 
-## Features
+## Features 🎢
 
 - **Simple Flag Management**: Create, update, and delete feature flags through a RESTful Architecture API
 - **Environment-Based Configuration**: Manage flags across different environments (development, staging, production)
