@@ -11,11 +11,11 @@ const routes = require('./routes');
 // Initialize express app
 const app = express();
 
-// Security middleware
-app.use(helmet());
-
 // Enable CORS
 app.use(cors());
+
+// Security middleware
+app.use(helmet());
 
 // Parse JSON body
 app.use(express.json());
