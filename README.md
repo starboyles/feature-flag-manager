@@ -13,7 +13,7 @@ A minimalist feature flag management service for developers. Control feature rel
 - **SDK Support**: Client libraries for JavaScript (more coming soon)
 - **Multi-Tenant Support**: Manage flags for multiple projects
 
-## System Architecture
+## System Architecture 🔗
 
 The system consists of three main components:
 
@@ -21,7 +21,7 @@ The system consists of three main components:
 2. **Web UI**: A React-based admin dashboard (coming soon)
 3. **SDKs**: Client libraries for different platforms
 
-## Getting Started
+## Getting Started 📍
 
 ### Prerequisites
 
