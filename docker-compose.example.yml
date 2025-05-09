@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: feature-flag-api
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      NODE_ENV: "production"
+      PORT: "5000"
+      MONGODB_URI: "mongodb+srv://username:password@cluster.mongodb.net/feature-flag-manager?retryWrites=true&w=majority"
+      MONGODB_URI_TEST: "mongodb+srv://username:password@cluster.mongodb.net/feature-flag-manager-test?retryWrites=true&w=majority"
+      JWT_SECRET: "your_jwt_secret_key_here"
+      JWT_EXPIRES_IN: "h"
+      LOG_LEVEL: "info"
+    networks:
+      - feature-flag-network
+
+networks:
+  feature-flag-network:
+    driver: bridge
