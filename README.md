@@ -1,4 +1,4 @@
-# Feature Flag Manager
+# Feature Flag Manager 🐎
 
 A minimalist feature flag management service for developers. Control feature releases through configuration rather than deploying new code, making deployments safer and more flexible.
 
