@@ -4,7 +4,7 @@ A minimalist feature flag management service for developers. Control feature rel
 
 ## Features
 
-- **Simple Flag Management**: Create, update, and delete feature flags through a RESTful API
+- **Simple Flag Management**: Create, update, and delete feature flags through a RESTful Architecture API
 - **Environment-Based Configuration**: Manage flags across different environments (development, staging, production)
 - **Gradual Rollouts**: Roll out features to a percentage of users
 - **User Segmentation**: Target features to specific user segments
